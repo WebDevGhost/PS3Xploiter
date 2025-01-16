@@ -1,0 +1,243 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+    
+<head>
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="application-name" content="PS3Xploiter">
+  <meta name="description" content="A more modern version of the PS3Xploit site, with extra features and content.">
+  <meta name="keywords" content="More, Modern, Version, PlayStation, PlayStation 3, PS3, Site, Website, Extra, Extras, Features, Content">
+  <meta name="author" content="WebDevGhost">
+  <meta name="organization" content="WebDevGhostGitHubIO">
+  <meta name="language" content="en">
+  <link rel="stylesheet" type="text/css" href="assets/styling.css">
+  <script type="text/javascript" src="assets/scripting.js"></script>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <title>PS3Xploiter</title>
+    
+  <style type="text/css">
+    body {
+      background-color: #141414;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      overflow-x: hidden;
+    }
+
+    #navbar {
+      width: 80%;
+      background-color: #1e1e1e;
+      border: 1px solid #ffffff;
+      padding: 10px 0;
+      border-radius: 15px;
+      position: fixed;
+      top: 20px;
+      left: 10%;
+      box-sizing: border-box;
+    }
+
+    #nav-content {
+      width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #nav-logo {
+      width: 100px;
+    }
+
+    .nav-items {
+      display: flex;
+    }
+
+    .nav-item {
+      position: relative;
+      padding: 10px 15px;
+      color: #ffffff;
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .nav-item:hover {
+      background-color: #333333;
+      border-radius: 8px;
+    }
+
+    .dropdown {
+      display: none;
+      position: absolute;
+      top: 150%;
+      right: 0;
+      width: 150px;
+      background-color: #1e1e1e;
+      border: 1px solid #ffffff;
+      border-radius: 10px;
+      z-index: 1;
+    }
+
+    .dropdown a {
+      display: block;
+      padding: 8px 10px;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 12px;
+    }
+
+    .dropdown a:hover {
+      background-color: #333333;
+    }
+
+    #main-body {
+      width: 77%;
+      margin: 150px auto 0;
+      padding: 20px;
+      background-color: #1e1e1e;
+      border: 1px solid #ffffff;
+      border-radius: 15px;
+    }
+
+    .inner-body {
+      width: 90%;
+      margin: 20px auto;
+      padding: 15px;
+      background-color: #333333;
+      border: 1px solid #ffffff;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    h4, .small-text {
+      color: #ffffff;
+      margin: 0 0 10px;
+      font-size: 16px;
+    }
+
+    .small-text {
+      color: #cccccc;
+      font-size: 14px;
+    }
+
+    .links a {
+      color: #00bfff;
+      text-decoration: none;
+      display: block;
+      font-size: 14px;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    #footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 40px;
+      background-color: #1e1e1e;
+      border-top: 1px solid #ffffff;
+      color: #ffffff;
+      font-size: 14px;
+      text-align: center;
+      line-height: 40px;
+      box-sizing: border-box;
+    }
+  </style>
+    
+</head>
+    
+<body>
+    
+  <div id="navbar">
+    <div id="nav-content">
+      <img src="assets/title.png" id="nav-logo" alt="Logo">
+      <div class="nav-items">
+        <div class="nav-item">HEN<div class="dropdown"><a href="#">Auto Installer</a><a href="#">Alternate Installer</a><a href="#">Installer/Enabler</a><a href="#">HFW 4.91</a><a href="#">HFW 4.90</a><a href="#">HFW 4.89</a><a href="#">HFW 4.88</a><a href="#">HFW 4.87</a><a href="#">HFW 4.86</a><a href="#">HFW 4.85</a><a href="#">HFW 4.84</a><a href="#">HFW 4.83</a><a href="#">OFW 4.82</a><a href="#">OFW 4.81</a><a href="#">OFW 4.80</a><a href="#">Developers Only</a><a href="#">Bug Reporting</a></div></div>
+          
+        <div class="nav-item">HAN V3<div class="dropdown"><a href="#">Extra Tools</a><a href="#">ACT/IDPS Dumper</a><a href="#">ACT/RIF Copier</a><a href="#">Installer</a><a href="#">Enabler</a><a href="#">Debug PKG Enabler</a><a href="#">Support Files</a><a href="#">Release Files</a><a href="#">Ethanol Resigner</a><a href="#">Hybrid Firmware</a></div></div>
+          
+        <div class="nav-item">BG Toolset<div class="dropdown"><a href="#">Official Site</a><a href="#">Logs</a><a href="#">PSXPlace Thread</a><a href="#">User Issues Thread</a></div></div>
+          
+        <div class="nav-item">Flash Tools<div class="dropdown"><a href="#">Flash Dumper</a><a href="#">Flash Writer</a></div></div>
+          
+        <div class="nav-item">Other Tools<div class="dropdown"><a href="#">Beep Test</a><a href="#">LED Test</a><a href="#">WebKit ROP Tutorials</a></div></div>
+          
+        <div class="nav-item">Extras<div class="dropdown"><a href="#">Firmwares</a><a href="#">Homebrew</a><a href="#">Mods</a><a href="#">Software</a></div></div>
+          
+        <div class="nav-item">StoreHaxx<div class="dropdown"><a href="#">Package</a><a href="#">Release Files</a></div></div>
+          
+        <div class="nav-item">Links<div class="dropdown"><a href="#">PSXPlace</a><a href="#">Social Media</a></div></div>
+          
+        <div class="nav-item">Help<div class="dropdown"><a href="#">FAQ</a><a href="#">Changelog</a><a href="#">Dumpers</a><a href="#">Writer</a><a href="#">HAN</a><a href="#">HEN</a><a href="#">Extra Tools</a><a href="#">StoreHaxx</a><a href="#">BG Toolset</a></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main-body">
+    <div class="inner-body">
+        
+        <center>
+         <font color="red">
+         <h2>Site is under construction</h2>
+         <p>The whole website is being rewritten in HTML4, CSS2 and ES3 (Vanilla JavaScript). This is to make it more compatible with the PS3 WebKit which is outdated.</p>
+         </font>
+        </center>
+        
+        <br>
+         <br>
+        
+      <h4>Header</h4>
+      <p class="small-text">This section will be updated soon.</p>
+      <div class="links"><a href="#">Link</a><a href="#">Link</a></div>
+    </div>
+      
+    <div class="inner-body">
+      <h4>Header</h4>
+      <p class="small-text">This section will be updated soon.</p>
+      <div class="links"><a href="#">Link</a><a href="#">Link</a></div>
+    </div>
+      
+    <div class="inner-body">
+      <h4>Header</h4>
+      <p class="small-text">This section will be updated soon.</p>
+      <div class="links"><a href="#">Link</a><a href="#">Link</a></div>
+    </div>
+      
+  </div>
+    
+  <br>
+   <br>
+  <br>
+
+  <div id="footer">PS3Xploiter 2025, by WebDevGhost</div>
+
+  <script type="text/javascript">
+    var navItems = document.getElementsByClassName('nav-item');
+    for (var i = 0; i < navItems.length; i++) {
+      navItems[i].onclick = function(e) {
+        var dropdown = this.getElementsByClassName('dropdown')[0];
+        if (dropdown.style.display === 'block') {
+          dropdown.style.display = 'none';
+        } else {
+          dropdown.style.display = 'block';
+        }
+        e.stopPropagation();
+      };
+    }
+
+    document.onclick = function() {
+      var dropdowns = document.getElementsByClassName('dropdown');
+      for (var i = 0; i < dropdowns.length; i++) {
+        dropdowns[i].style.display = 'none';
+      }
+    };
+  </script>
+    
+</body>
+    
+</html>
